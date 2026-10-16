@@ -1,0 +1,25 @@
+{
+  "fps": {
+    "target_fps": 360,
+    "stock_fps": 144,
+    "high_priority": true,
+    "disable_vsync": true
+  },
+  "pacing": {
+    "sample_ms": 16,
+    "samples_per_window": 60,
+    "nvidia_reflex_hint": true,
+    "amd_anti_lag_hint": false
+  },
+  "overlay": {
+    "enabled": true,
+    "alpha": 200,
+    "show_fps": true,
+    "show_frametime_graph": true,
+    "show_ping": false,
+    "font_family": "Consolas"
+  },
+  "log": {
+    "verbose": false
+  }
+}
