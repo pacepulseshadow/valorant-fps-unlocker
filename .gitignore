@@ -1,0 +1,56 @@
+# Build artifacts
+/build/
+/out/
+/bin/
+/obj/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.opendb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# vcpkg
+/vcpkg_installed/
+
+# ImGui / overlay caches
+/imgui.ini
+/overlay_cache/
+
+# Runtime config (may contain user HWID / API tokens)
+/config/local.json
+/config/user_*.json
+/logs/
+/dumps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# NuGet (C# bridge)
+/packages/
+*.nupkg
+
+# Misc
+*.log
+*.tmp
+Thumbs.db
